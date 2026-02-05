@@ -1,171 +1,220 @@
+Perfecto 👍
+Aquí lo tienes **100 % en modo código (Markdown)**, listo para **copiar y pegar directamente en tu `README.md`**.
+
+````md
 <div align="center">
 
-📼 VCR Manager | Nightwave Edition
-A VHS-era video converter with authentic analog aesthetics
+📼 **VCR Manager | Nightwave Edition**  
+*A VHS-era video converter with authentic analog aesthetics*
 
-🇺🇸 English
- · 🇪🇸 Español
+[🇺🇸 English](#-vcr-manager--nightwave-edition-english-) · [🇪🇸 Español](#-vcr-manager--nightwave-edition-español-)
 
 </div>
-📼 VCR Manager | Nightwave Edition (English) 🇺🇸
 
-Bring the past to the present.
+---
+
+## 📼 VCR Manager | Nightwave Edition (English) 🇺🇸
+
+**Bring the past to the present.**  
 Convert modern digital files into authentic 90s-style VHS tapes.
 
-VCR Manager is a desktop application developed in Python, combining the ntsc-rs engine (Rust) with FFmpeg to recreate the visual and sonic imperfections of analog VHS media.
+**VCR Manager** is a desktop application developed in **Python**, combining the **ntsc-rs** engine (Rust) with **FFmpeg** to recreate the visual and sonic imperfections of analog VHS media.
 
-📺 Screenshot
+### 📺 Screenshot
+Random animated backgrounds inspired by **City Pop / Vaporwave** aesthetics.
 
-Random animated backgrounds inspired by City Pop / Vaporwave aesthetics.
+---
 
-✨ Features
-🎨 Visual Aesthetics
+## ✨ Features
 
-Vaporwave / Win95-inspired interface
+### 🎨 Visual Aesthetics
+- Vaporwave / Win95-inspired interface
+- Random animated backgrounds
+- Retro-futuristic UI design
 
-Random animated backgrounds
+### 🔊 Analog Audio Simulation
+- Automatic conversion to **AAC**
+- **Low-Pass filters** to emulate VHS warmth and muffling
+- **Failsafe mode** for videos without audio tracks
 
-Retro-futuristic UI design
-
-🔊 Analog Audio Simulation
-
-Automatic conversion to AAC
-
-Low-Pass filters to emulate VHS warmth and muffling
-
-Failsafe mode for videos without audio tracks
-
-🌎 Universal Input
-
+### 🌎 Universal Input
 Drag & drop support for most common formats:
 
-.mp4 · .mkv · .avi · .mov · .flv · .png · .jpg · .webp
+`.mp4` · `.mkv` · `.avi` · `.mov` · `.flv` · `.png` · `.jpg` · `.webp`
 
-⚡ Hybrid Processing Engine
+### ⚡ Hybrid Processing Engine
+- **Video**: NTSC composite signal emulation via `ntsc-rs`
+- **Core**: Python + PyQt6 orchestration
 
-Video: NTSC composite signal emulation via ntsc-rs
+---
 
-Core: Python + PyQt6 orchestration
+## 🛠️ System Requirements
 
-🛠️ System Requirements
+- **Python 3.x**
+- **FFmpeg** (available in PATH)
+- **Linux** (Mint / Ubuntu / Debian)
 
-Python 3.x
-
-FFmpeg (available in PATH)
-
-Linux (Mint / Ubuntu / Debian)
-
+```bash
 sudo apt install ffmpeg
+````
 
-Python Dependencies
+### Python Dependencies
+
+```bash
 pip install PyQt6 pyinstaller
+```
 
-🚀 Installation (Source Code)
+---
+
+## 🚀 Installation (Source Code)
+
+```bash
 git clone https://github.com/mati-sly/VHS-CONVERTER.git
 cd VHS-CONVERTER
 chmod +x bin/ntsc-rs-cli
 python main.py
+```
 
-🏗️ Build (Create Executable)
+---
+
+## 🏗️ Build (Create Executable)
+
+```bash
 pyinstaller --noconfirm --onefile --windowed --name "VCR_Manager" \
   --add-data "assets:assets" \
   --add-binary "bin/ntsc-rs-cli:bin" \
   --icon "assets/icon.png" \
   main.py
+```
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
+```text
 ├── assets/          # Animated GIFs, icons, visual resources
 ├── bin/             # ntsc-rs compiled binary
 ├── main.py          # Core logic + GUI
 └── README.md        # Documentation
+```
 
-👨‍💻 Credits
+---
 
-Developer: Matías
+## 👨‍💻 Credits
 
-VHS Engine: Based on ntsc-rs
+* **Developer**: Matías
+* **VHS Engine**: Based on `ntsc-rs`
+* **Media Processing**: FFmpeg
 
-Media Processing: FFmpeg
+<div align="center">
+<sub>Developed with ❤️ and plenty of static on Linux Mint. © 2026</sub>
+</div>
 
-<div align="center"> <sub>Developed with ❤️ and plenty of static on Linux Mint. © 2026</sub> </div>
-📼 VCR Manager | Nightwave Edition (Español) 🇪🇸
+---
 
-Trae el pasado al presente.
+---
+
+## 📼 VCR Manager | Nightwave Edition (Español) 🇪🇸
+
+**Trae el pasado al presente.**
 Convierte archivos digitales modernos en cintas VHS con estética auténtica de los años 90.
 
-VCR Manager es una aplicación de escritorio desarrollada en Python que combina el motor ntsc-rs (Rust) con FFmpeg para recrear las imperfecciones visuales y sonoras del formato VHS.
+**VCR Manager** es una aplicación de escritorio desarrollada en **Python** que combina el motor **ntsc-rs** (Rust) con **FFmpeg** para recrear las imperfecciones visuales y sonoras del formato VHS.
 
-📺 Captura de pantalla
+### 📺 Captura de pantalla
 
-Fondos animados aleatorios inspirados en el estilo City Pop / Vaporwave.
+Fondos animados aleatorios inspirados en el estilo **City Pop / Vaporwave**.
 
-✨ Características
-🎨 Estética visual
+---
 
-Interfaz inspirada en Vaporwave / Win95
+## ✨ Características
 
-Fondos animados aleatorios
+### 🎨 Estética visual
 
-Diseño retro-futurista
+* Interfaz inspirada en Vaporwave / Win95
+* Fondos animados aleatorios
+* Diseño retro-futurista
 
-🔊 Simulación de audio analógico
+### 🔊 Simulación de audio analógico
 
-Conversión automática a AAC
+* Conversión automática a **AAC**
+* Filtros **Low-Pass** para simular la calidez del VHS
+* **Modo a prueba de fallos** para videos sin audio
 
-Filtros Low-Pass para simular la calidez del VHS
-
-Modo a prueba de fallos para videos sin audio
-
-🌎 Entrada universal
+### 🌎 Entrada universal
 
 Soporta arrastrar y soltar la mayoría de formatos:
 
-.mp4 · .mkv · .avi · .mov · .flv · .png · .jpg · .webp
+`.mp4` · `.mkv` · `.avi` · `.mov` · `.flv` · `.png` · `.jpg` · `.webp`
 
-⚡ Motor híbrido
+### ⚡ Motor híbrido
 
-Video: Emulación de señal NTSC mediante ntsc-rs
+* **Video**: Emulación de señal NTSC mediante `ntsc-rs`
+* **Core**: Python + PyQt6
 
-Core: Python + PyQt6
+---
 
-🛠️ Requisitos del sistema
+## 🛠️ Requisitos del sistema
 
-Python 3.x
+* **Python 3.x**
+* **FFmpeg** accesible desde la terminal
+* **Linux** (Mint / Ubuntu / Debian)
 
-FFmpeg accesible desde la terminal
-
-Linux (Mint / Ubuntu / Debian)
-
+```bash
 sudo apt install ffmpeg
+```
 
-Dependencias de Python
+### Dependencias de Python
+
+```bash
 pip install PyQt6 pyinstaller
+```
 
-🚀 Instalación (código fuente)
+---
+
+## 🚀 Instalación (código fuente)
+
+```bash
 git clone https://github.com/mati-sly/VHS-CONVERTER.git
 cd VHS-CONVERTER
 chmod +x bin/ntsc-rs-cli
 python main.py
+```
 
-🏗️ Compilación (crear ejecutable)
+---
+
+## 🏗️ Compilación (crear ejecutable)
+
+```bash
 pyinstaller --noconfirm --onefile --windowed --name "VCR_Manager" \
   --add-data "assets:assets" \
   --add-binary "bin/ntsc-rs-cli:bin" \
   --icon "assets/icon.png" \
   main.py
+```
 
-📂 Estructura del proyecto
+---
+
+## 📂 Estructura del proyecto
+
+```text
 ├── assets/          # GIFs animados, iconos y recursos visuales
 ├── bin/             # Binario compilado de ntsc-rs
 ├── main.py          # Lógica principal + GUI
 └── README.md        # Documentación
+```
 
-👨‍💻 Créditos
+---
 
-Desarrollador: Matías
+## 👨‍💻 Créditos
 
-Motor VHS: Basado en el proyecto open-source ntsc-rs
+* **Desarrollador**: Matías
+* **Motor VHS**: Basado en el proyecto open-source `ntsc-rs`
+* **Procesamiento de medios**: FFmpeg
 
-Procesamiento de medios: FFmpeg
+<div align="center">
+<sub>Desarrollado con ❤️ y mucha estática en Linux Mint. © 2026</sub>
+</div>
+```
 
-<div align="center"> <sub>Desarrollado con ❤️ y mucha estática en Linux Mint. © 2026</sub> </div>
+
