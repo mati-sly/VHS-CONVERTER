@@ -1,7 +1,4 @@
-Perfecto 👍
-Aquí lo tienes **100 % en modo código (Markdown)**, listo para **copiar y pegar directamente en tu `README.md`**.
 
-````md
 <div align="center">
 
 📼 **VCR Manager | Nightwave Edition**  
@@ -215,6 +212,6 @@ pyinstaller --noconfirm --onefile --windowed --name "VCR_Manager" \
 <div align="center">
 <sub>Desarrollado con ❤️ y mucha estática en Linux Mint. © 2026</sub>
 </div>
-```
+
 
 
